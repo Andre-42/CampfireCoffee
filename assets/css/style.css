@@ -2,7 +2,7 @@
 
 /*--------------------------------------------Colors*/
 .bg-color-name-title {
-    color: #C5A464
+    color: #C5A464;
 }
 
 #nav {
@@ -32,7 +32,19 @@
 .dark a {
     color: #2B1B1E;
 }
+
+.intro-color {
+    background-color: #C5A464;
+}
 /*--------------------------------------------Header*/
+.row {
+    margin-left:0;
+    margin-right:0;
+}
+.col {
+    padding-left:0;
+    padding-right:0;
+}
 header {
     margin: 0;
     height: 180px;
@@ -104,6 +116,19 @@ header > div {
 }
 /*--------------------------------------------Main*/
 
+.intro {
+    background: url("../images/pexels-viktoria-khivrich-18958442-md.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+.introtext {
+    min-height: 400px;
+}
+h4 {
+    padding-bottom: 1.5rem;
+}
 /*--------------------------------------------Footer*/
 
 @media screen and (max-width: 573px) {
