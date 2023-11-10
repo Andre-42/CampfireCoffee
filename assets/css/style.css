@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:100,200,300,400,500,600,700|family=Roboto+Slab:100,200,300,400,500,600,700');
-
+main {
+    padding-top: 180px;
+}
 /*--------------------------------------------Colors*/
 .bg-color-name-title {
     color: #C5A464;
@@ -36,6 +38,9 @@
 .intro-color {
     background-color: #C5A464;
 }
+.about-color {
+    background-color: #DB8350;
+}
 /*--------------------------------------------Header*/
 .row {
     margin-left:0;
@@ -48,6 +53,8 @@
 header {
     margin: 0;
     height: 180px;
+    position: fixed;
+    width:100%;
 }
 
 header > div {
@@ -123,7 +130,11 @@ header > div {
     background-size: cover;
     min-height: 400px;
 }
-.introtext {
+.about {
+    background: url("../images/pexels-mikhail-nilov-6623930-md.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 400px;
 }
 h4 {
