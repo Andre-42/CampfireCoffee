@@ -35,7 +35,19 @@ header > div {
     margin-top: 10px;
 }
 
+.sitename {
+    font-family: "Roboto+Slab", sans-serif;
+    font-weight: 100;
+    font-size: 32px;
+}
 
+.jingle {
+    font-family: "Roboto+Slab", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 /*--------------------------------------------Main*/
 
 /*--------------------------------------------Footer*/
