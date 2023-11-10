@@ -1,26 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:100,200,300,400,500,600,700|family=Roboto+Slab:100,200,300,400,500,600,700');
 
 /*--------------------------------------------Colors*/
-
+.bg-color-name-title {
+    color: #C5A464
+}
 /*--------------------------------------------Header*/
 header {
     margin: 0;
+    height: 180px;
+}
+
+header > div {
+    height: 120px;
+}
+
+.headcontainer {
+    background-image: url("../images/pexels-mikhail-nilov-6623930-sm.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .heading {
     margin-left: 50px;
+    
 }
 
 .logo {
     background: url("../images/logo300.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    background-size: contain;
+    max-height: 110px;
+    margin-top: 10px;
 }
+
+
 /*--------------------------------------------Main*/
 
 /*--------------------------------------------Footer*/
+
+@media screen and (max-width: 573px) {
+    .headcontainer {
+        background-image: none;
+    }
+    .heading {
+        margin-left: 10px;
+    }
+    header > div {
+        background-image: url("../images/pexels-mikhail-nilov-6623930-sm.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logo {
+        background: url("../images/logo200trans.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: contain;
+        max-height: 80px;
+    }
+}
