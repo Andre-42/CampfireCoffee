@@ -55,6 +55,7 @@ header {
     height: 180px;
     position: fixed;
     width:100%;
+    background-color: ghostwhite;
 }
 
 header > div {
