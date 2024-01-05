@@ -48,6 +48,10 @@ main {
     background-color: #64311A;
     color:antiquewhite;
 }
+.comment-color2 {
+    background-color: #87562D;
+    color:antiquewhite;
+}
 /*--------------------------------------------Header*/
 .row {
     margin-left:0;
