@@ -41,6 +41,9 @@ main {
 .about-color {
     background-color: #DB8350;
 }
+.signup-color  {
+    background-color: #7CA056;
+}
 /*--------------------------------------------Header*/
 .row {
     margin-left:0;
@@ -133,6 +136,13 @@ header > div {
 }
 .about {
     background: url("../images/pexels-mikhail-nilov-6623930-md.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+.signup {
+    background: url("../images/pexels-michael-burrows-7125440-md.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
